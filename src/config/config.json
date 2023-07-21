@@ -1,14 +1,14 @@
 {
   "site": {
     "title": "ONE",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "base_url": "https://one.ie",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "147",
     "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_text": "ONE"
   },
 
   "settings": {
@@ -18,32 +18,32 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "ONE - Elevate Your Sales With AI",
+    "description": "Elevate traffic, conversion rates and sales with AI ",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Get Started",
+      "link": "#"
     }
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "one-template",
     "settings": {}
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_description": "Elevate with AI",
     "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "location": "Le Canadu, Pollnarooma West, Salthill, Galway, Ireland",
+    "phone": "+660660106632",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2023 [ONE](https://one.ie)"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "ONE",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "ONE - Elevate with AI"
   }
 }
