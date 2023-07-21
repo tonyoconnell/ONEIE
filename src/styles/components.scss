@@ -5,7 +5,7 @@
 
 // container
 .container {
-  @apply mx-auto max-w-[1202px] px-3;
+  @apply mx-auto max-w-[1402px] px-3;
 }
 
 // form style
@@ -299,7 +299,7 @@ select:invalid {
 
 //review-carousel
 .review {
-  @apply mx-[0.9rem] my-16 rounded-xl bg-white px-3 py-6 pb-16 text-center shadow;
+  @apply mx-[0.9rem] my-16 rounded-xl background-secondary px-3 py-6 pb-16 text-center shadow;
 
   &-author-avatar {
     @apply mx-auto -mt-12 h-[90px] w-[90px] -translate-y-5 rounded-full p-0.5;
@@ -412,7 +412,7 @@ select:invalid {
 
 //card
 .card {
-  @apply relative h-full rounded-xl bg-white p-5 shadow-lg;
+  @apply relative h-full rounded-xl background-secondary p-5 shadow-lg;
 
   &-img {
     @apply w-full;

@@ -20,7 +20,7 @@ const Faq = ({ data }) => {
             <p className="mt-6 lg:max-w-[404px]">{data.faq.description}</p>
           </div>
           <div className="mt-8 lg:col-8 lg:mt-0">
-            <div className="rounded-xl bg-white px-5 py-5 shadow-lg lg:px-10 lg:py-8">
+            <div className="rounded-xl background-secondary px-5 py-5 shadow-lg lg:px-10 lg:py-8">
               {data.faq.faq_list.map((item, i) => (
                 <div
                   className={`accordion border-b border-border ${

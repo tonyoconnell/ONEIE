@@ -8,7 +8,7 @@ const PricingCard = ({ item }) => {
   return (
     <div className="mt-8 px-3 md:col-6 lg:col-4 lg:mt-0" key={item.title}>
       <div
-        className={`rounded-xl bg-white px-8 py-10 shadow-lg ${
+        className={`rounded-xlbackground-secondary px-8 py-10 shadow-lg ${
           item.featured ? "-mt-16 border border-primary " : undefined
         }`}
       >

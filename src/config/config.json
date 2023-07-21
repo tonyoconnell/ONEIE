@@ -6,8 +6,8 @@
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
+    "logo_width": "124",
+    "logo_height": "50",
     "logo_text": "ONE"
   },
 
@@ -34,7 +34,7 @@
 
   "params": {
     "footer_description": "Elevate with AI",
-    "email": "info@andromeda.io",
+    "email": "info@one.ie",
     "location": "Le Canadu, Pollnarooma West, Salthill, Galway, Ireland",
     "phone": "+660660106632",
     "contact_form_action": "#",

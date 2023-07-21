@@ -47,7 +47,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
         <div className="row mt-12">
           {filterPost.map((post, i) => (
             <div className="mb-8 md:col-6" key={`post-${i}`}>
-              <div className="rounded-xl bg-white p-5 shadow-lg lg:p-10">
+              <div className="rounded-xl background-secondary p-5 shadow-lg lg:p-10">
                 <h3 className="h4">{post.data.title}</h3>
                 <p className="mt-6">{post.data.excerpt}</p>
                 <ul className="mt-6 flex flex-wrap items-center text-dark">

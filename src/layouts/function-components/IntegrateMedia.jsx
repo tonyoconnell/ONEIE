@@ -44,7 +44,7 @@ const IntegrateMedia = ({ integrations, categories }) => {
               key={i}
               className="integration-tab-item mb-8 md:col-6 lg:col-4"
             >
-              <div className="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+              <div className="rounded-xl background-secondary px-10 pb-8 pt-11 shadow-lg">
                 <div className="integration-card-head flex items-center space-x-4">
                   <img src={item.data.image} alt="" />
                   <div>

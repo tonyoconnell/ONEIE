@@ -6,7 +6,7 @@ const { posts, sidebar_content } = Astro.props;
 <div class="career-single-sidebar mt-8 lg:col-4 lg:mt-0">
   {
     sidebar_content.enable && (
-      <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
+      <div class="mb-8 rounded-xl background-secondary px-7 py-10 shadow-lg">
         <h5 class="h5">{sidebar_content.title}</h5>
         <p class="mt-4">{sidebar_content.content}</p>
         <a
@@ -20,7 +20,7 @@ const { posts, sidebar_content } = Astro.props;
   }
   {
     posts.slice(0, 2).map((item: any) => (
-      <div class="mb-8 rounded-xl bg-white px-7 py-10 shadow-lg">
+      <div class="mb-8 rounded-xl background-secondary px-7 py-10 shadow-lg">
         <h5 class="h5">{item.data.title}</h5>
         <p class="mt-6">{item.data.excerpt}</p>
         <ul class="text-dark mt-6 flex flex-wrap items-center">

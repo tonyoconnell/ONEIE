@@ -12,10 +12,10 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply sticky top-0 z-50  bg-white py-6 transition-all duration-300 lg:bg-transparent;
+  @apply sticky top-0 z-50 bg-[#111111] bg-body bg-[url('/images/backgrounds/brilliant.png')] py-6 transition-all duration-300 lg:bg-transparent;
 
   &-sticky {
-    @apply bg-white shadow;
+    @apply  bg-[#111111] bg-body bg-[url('/images/background.png')] shadow;
   }
 }
 
@@ -23,6 +23,10 @@ input#nav-toggle:checked ~ #nav-menu {
 .navbar {
   @apply relative flex flex-wrap items-center justify-between;
 }
+.navbar {
+  padding: 0 20px;
+}
+
 
 .navbar-brand {
   @apply text-xl font-semibold text-dark;

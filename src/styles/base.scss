@@ -3,7 +3,11 @@ html {
 }
 
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text;
+  @apply bg-body bg-[url('/images/background.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
+}
+.background-secondary {
+  @apply bg-body bg-[url('/images/backgrounds/brilliant.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
+
 }
 
 h1,

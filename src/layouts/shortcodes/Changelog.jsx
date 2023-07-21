@@ -11,7 +11,7 @@ const Changelog = ({ children, date }) => {
                 <h6 className="mb-4 pl-7 text-lg lg:mt-0 lg:pl-0">{date}</h6>
               </div>
               <div className="border-border lg:col-9 lg:border-l lg:pb-10 lg:pl-10">
-                <div className="changelogs-content rounded-xl bg-white p-6 shadow-lg lg:p-10">
+                <div className="changelogs-content rounded-xl background-secondary p-6 shadow-lg lg:p-10">
                   {children}
                 </div>
               </div>

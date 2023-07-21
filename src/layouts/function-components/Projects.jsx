@@ -10,7 +10,7 @@ const Projects = ({ projects }) => {
           return (
             <div className="lg:col-6" key={`item-${i}`}>
               <div
-                className={`flex items-center space-x-4 rounded-lg bg-[#fafafa] px-6 py-8 lg:mt-6  ${
+                className={`flex items-center space-x-4 rounded-lg background-secondary px-6 py-8 lg:mt-6  ${
                   projects.length - 1 === i ? "mb-0" : "mb-6 "
                 } `}
               >
