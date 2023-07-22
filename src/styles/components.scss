@@ -657,7 +657,7 @@ select:invalid {
   h2 {
     @apply font-primary text-2xl font-bold text-[#999999];
   }
-
+ 
   p {
     @apply hidden;
   }
@@ -671,6 +671,15 @@ select:invalid {
       @apply block;
     }
   }
+}
+
+.features-tab-item {
+  cursor: pointer;
+  border-left-width: 4px;
+}
+
+.features-tab-item.active {
+  border-color: #1a5fb4;
 }
 
 .auth-banner-carousel {

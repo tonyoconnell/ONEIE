@@ -5,6 +5,7 @@ import KeyFeatures from "@layouts/components/KeyFeatures.astro";
 import Testimonial from "@layouts/components/Testimonial.astro";
 import Service from "@layouts/components/Service.astro";
 import Cta from "@layouts/partials/Cta.astro";
+import FeaturesClean from "@layouts/components/features/FeaturesClean.astro";
 import { getEntryBySlug } from "astro:content";
 
 const homepage = await getEntryBySlug("homepage", "index");
@@ -12,23 +13,7 @@ const { banner, key_features, service, testimonial } = homepage.data;
 ---
 
 <Base>
-  <br  />
-    
-
-
-
-<section>
-
-
-</section>
-  <!-- banner -->
-  <Banner banner={banner} />
-  <!-- key features -->
-  <KeyFeatures key_features={key_features} />
-  <!-- service -->
-  <Service service={service} />
-  <!-- testimonial -->
-  <Testimonial testimonial={testimonial} />
-  <!-- call to action -->
-  <Cta />
+<!--	
+<FeaturesClean />
+-->
 </Base>

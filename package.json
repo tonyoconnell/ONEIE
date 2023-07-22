@@ -19,6 +19,7 @@
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",
+    "flowbite": "^1.7.0",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "marked": "^4.3.0",

@@ -5,6 +5,7 @@ import theme from "@config/theme.json";
 import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer.astro";
 import Header from "@partials/Header.astro";
+import { ViewTransitions } from 'astro:transitions';
 import "@styles/main.scss";
 
 // font families
@@ -138,13 +139,15 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <ViewTransitions />
   </head>
-  <body>
+  <body transition:animate="slide">
     <TwSizeIndicator />
     <Header />
     <main id="main-content">
       <slot />
     </main>
     <Footer />
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
   </body>
 </html>

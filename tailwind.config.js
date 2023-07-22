@@ -24,7 +24,10 @@ if (theme.fonts.font_family.secondary) {
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: [
+    "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
+    "./node_modules/flowbite/**/*.js"
+  ],
   darkMode: "class",
   theme: {
     screens: {
@@ -72,5 +75,6 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({ generateContainer: false }),
+    require('flowbite/plugin')
   ],
 };
