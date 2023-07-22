@@ -5,6 +5,14 @@ strong {
 code {
   @apply after:border-none;
 }
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
 
 .shadow {
   box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.05);

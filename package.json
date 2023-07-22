@@ -35,6 +35,9 @@
     "@astrojs/react": "^2.1.1",
     "@astrojs/sitemap": "^1.2.2",
     "@astrojs/tailwind": "^3.1.1",
+    "@swup/a11y-plugin": "^3.0.0",
+    "@swup/head-plugin": "^1.3.0",
+    "@swup/slide-theme": "^1.0.5",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/marked": "^4.0.8",
@@ -47,6 +50,7 @@
     "react-dom": "^18.2.0",
     "sass": "^1.62.1",
     "sharp": "^0.32.1",
+    "swup": "^3.1.1",
     "tailwind-bootstrap-grid": "^5.0.1",
     "tailwindcss": "^3.3.2"
   }
