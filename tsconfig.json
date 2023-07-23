@@ -12,6 +12,7 @@
       "@content/*": ["./src/content/*"],
       "@config/*": ["./src/config/*"],
       "@styles/*": ["./src/styles/*"],
+      "@modules/*": ["./node_modules/*"],
       "@lib/*": ["./src/lib/*"]
     }
   }

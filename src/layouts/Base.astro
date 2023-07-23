@@ -141,13 +141,13 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta name="twitter:card" content="summary_large_image" />
     <ViewTransitions />
   </head>
-  <body transition:animate="slide">
+  <body>
     <TwSizeIndicator />
     <Header />
-    <main id="main-content">
+    <main id="main-content" transition:animate="slide">
       <slot />
     </main>
     <Footer />
-    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+  <!--<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script> -->
   </body>
 </html>

@@ -12,18 +12,20 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply sticky top-0 z-50 bg-[#111111] bg-body bg-[url('/images/backgrounds/brilliant.png')] py-6 transition-all duration-300 lg:bg-transparent;
+  @apply sticky top-0 z-50 bg-body bg-[url('/images/backgrounds/brilliant.png')] py-6 transition-all duration-300 lg:bg-transparent;
 
   &-sticky {
     @apply  bg-[#111111] bg-body bg-[url('/images/background.png')] shadow;
   }
 }
-.header {z-index: 1000;}
+header {z-index: 1000;}
 .header {
   z-index: 1000;
   &-sticky {
     z-index: 1000  }
 }
+header.header-sticky {background-color: #fff;}
+section {z-index: -2;}
 body {z-index: -1;}
 
 
