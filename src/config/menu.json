@@ -13,6 +13,10 @@
       "url": "/#ecommerce-platforms"
     },
     {
+      "name": "API",
+      "url": "https://app.one.ie/api"
+    },
+    {
       "name": "Pricing",
       "url": "/get-started"
     },

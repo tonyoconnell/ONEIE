@@ -4,4 +4,4 @@ Disallow: /
 Allow: /$
 Allow: /terms
 Allow: /privacy
-Allog: /get-started
+Allow: /get-started
