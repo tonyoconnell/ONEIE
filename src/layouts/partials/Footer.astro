@@ -10,21 +10,23 @@ const { copyright, location, email, phone, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#111111] bg-body bg-[url('/images/backgrounds/brilliant.png')] ">
-  <div class="container">
+  <div class="">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <Logo />
+        
+        <img src="/images/logos/o-light.svg" width="80px" height="100px">
         <p class="mt-6">
+          ONE <br>
           {footer_description}
         </p>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
+        <h6>Connect</h6>
 
         <Social source={social} className="social-icons mt-4 lg:mt-6" />
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Quick Links</h6>
+        <h6>Legal</h6>
         <ul>
           {
             footer.map((item, i) => (

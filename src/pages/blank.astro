@@ -1,18 +1,16 @@
 ---
 import Base from "@layouts/Base.astro";
-import Banner from "@layouts/components/Banner.astro";
+import EcommercePlatforms from "@layouts/components/EcommercePlatforms.astro";
 import KeyFeatures from "@layouts/components/KeyFeatures.astro";
 import Testimonial from "@layouts/components/Testimonial.astro";
 import Service from "@layouts/components/Service.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import FeaturesClean from "@layouts/components/features/FeaturesClean.astro";
-import { getEntryBySlug } from "astro:content";
-
-const homepage = await getEntryBySlug("homepage", "index");
-const { banner, key_features, service, testimonial } = homepage.data;
 ---
 
 <Base>
+    
+<EcommercePlatforms />
 <!--	
 <FeaturesClean />
 -->

@@ -80,8 +80,8 @@ service:
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: What our customers say
+  description: Our focus is on one thing only. We help our customers explode their ecommerce sales. 
   testimonial_list:
     - author: David Cameron
       avatar: "/images/users/user-5.png"

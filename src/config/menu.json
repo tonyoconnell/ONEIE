@@ -2,19 +2,19 @@
   "main": [
     {
       "name": "Product",
-      "url": "/features"
+      "url": "/"
     },
     {
       "name": "Channels",
-      "url": "/integrations"
+      "url": "/#channels"
     },
     {
-      "name": "Solutions",
-      "url": "/features"
+      "name": "Integrations",
+      "url": "/#integrations"
     },
     {
       "name": "Pricing",
-      "url": "/how-it-works"
+      "url": "/get-started"
     },
     {
       "name": "Company",
@@ -22,60 +22,25 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Career",
-          "url": "/career"
-        },
-
-        {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
+          "name": "Privacy",
+          "url": "/privacy"
         },
         {
           "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
+          "url": "/terms"
         }
       ]
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
     }
   ],
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Privacy",
+      "url": "/privacy"
     },
     {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Terms",
+      "url": "/terms"
     }
   ]
 }
