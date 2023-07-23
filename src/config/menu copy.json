@@ -1,23 +1,27 @@
 {
   "main": [
     {
-      "name": "Product",
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Features",
       "url": "/features"
     },
     {
-      "name": "Channels",
-      "url": "/integrations"
-    },
-    {
-      "name": "Solutions",
-      "url": "/features"
-    },
-    {
-      "name": "Pricing",
+      "name": "How It Works",
       "url": "/how-it-works"
     },
     {
-      "name": "Company",
+      "name": "Pages",
       "url": "",
       "hasChildren": true,
       "children": [

@@ -1,4 +1,4 @@
 ---
-title: "Blog"
-page_title: Insight and advice from <br /> our expert team.
+title: "ONE Blog"
+page_title: Thoughts, ideas and research about AI, marketing, and ecommerce.
 ---
