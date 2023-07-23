@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Disallow: /api/*
+Allow: /$
+Allow: /terms
+Allow: /privacy
+Allog: /get-started
