@@ -80,6 +80,19 @@ h6,
   padding-right: 1px;
   color: white;
 }
+
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+/* Now, let's apply it on an element */
+body {
+  font-family: "system-ui";
+}
+
 .loading {background-color: #242624;margin-top: -200px;}
 .loading img { margin: 0 auto; }
 
