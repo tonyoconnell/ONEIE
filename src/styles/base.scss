@@ -93,7 +93,7 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 1px;
+  padding: 40px 1px;
 }
 .logo-item span {
   color:white;
@@ -103,8 +103,9 @@ h6,
   background-color: #1a5fb4;
 }
 #ecommerce-platforms, #channels {padding: 60px 10px;}
-.ecommerce-platforms p {padding: 0 1px; }
+.ecommerce-platforms p {padding: 0 20px 20px 20px; }
 .ecommerce-platforms img { margin: 0 auto;}
 .logo-item span img {width: 50px; height: 50px;}
 
 .footer {padding: 20px;}
+.logo-footer {margin-left: -10px;}

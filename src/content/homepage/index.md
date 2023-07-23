@@ -83,49 +83,19 @@ testimonial:
   title: What our customers say
   description: Our focus is on one thing only. We help our customers explode their ecommerce sales. 
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
+    - author: Rory O'Connor
+      avatar: "/images/logos/hp.png"
+      organization: Former Managing Director - HP European Software Center
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
+      content: You're amazing - your energy is most impressive. Your strategy sounds like real music. It certainly will have impact. Take care and keep up the good work.
+    - author: Anthony Pelekanou
+      avatar: "/images/logos/wonderfullydiamonds.jpeg"
+      organization: Managing Director Wonderfully Diamonds
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
+      content: Many thanks to you for all your great work and especially appreciating the short deadline we were working with just before Christmas. The shopping experience is definitely a pleasant one and very user friendly. Your technical help and support throughout the project has been greatly appreciated.
+    - author: Hemi Englisher
+      avatar: "/images/logos/gemcal.jpeg"
+      organization: Managing Director Gemcal
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: Traffic and sales are going up, bounce rate going down- this is very good especially where the economic news is bad and usually sales usually drop along with the stock market.
 ---
