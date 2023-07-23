@@ -76,8 +76,13 @@ h6,
   padding-bottom: 2rem;
 }
 .logo-item span{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: white;
+}
+
+.logo-item span img {
+  padding-right: 8px;
 }
 .logo-item {
   font-size: 1rem;
@@ -94,9 +99,6 @@ h6,
   align-items: center;
   justify-content: center;
   padding: 40px 1px;
-}
-.logo-item span {
-  color:white;
 }
 
 .primary {
