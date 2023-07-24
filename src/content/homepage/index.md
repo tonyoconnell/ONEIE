@@ -89,12 +89,12 @@ testimonial:
       rating: five
       content: You're amazing - your energy is most impressive. Your strategy sounds like real music. It certainly will have impact. Take care and keep up the good work.
     - author: Anthony Pelekanou
-      avatar: "/images/logos/wonderfullydiamonds.jpeg"
+      avatar: "/images/logos/wonderfullydiamonds.png"
       organization: Managing Director Wonderfully Diamonds
       rating: five
       content: Many thanks to you for all your great work and especially appreciating the short deadline we were working with just before Christmas. The shopping experience is definitely a pleasant one and very user friendly. Your technical help and support throughout the project has been greatly appreciated.
     - author: Hemi Englisher
-      avatar: "/images/logos/gemcal.jpeg"
+      avatar: "/images/logos/gemcal.png"
       organization: Managing Director Gemcal
       rating: five
       content: Traffic and sales are going up, bounce rate going down- this is very good especially where the economic news is bad and usually sales usually drop along with the stock market.
