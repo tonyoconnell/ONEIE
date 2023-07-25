@@ -48,7 +48,9 @@ const page_data = {
     <div class="container">
       <div class="lg:gx-4 row">
         <div class="mx-auto lg:col-8">
-          <div class="lg:py-[60px] rounded-xl background-secondary p-7 shadow-lg lg:px-12">
+          <div
+            class="background-secondary rounded-xl p-7 shadow-lg lg:px-12 lg:py-[60px]"
+          >
             <div class="mb-8 px-4 text-center">
               <Image
                 class="mx-auto"
@@ -57,17 +59,21 @@ const page_data = {
                 height={80}
                 width={80}
               />
-              <h4 class="mt-6">Connect {post.data.title} with Open AI</h1>
+              <h4 class="mt-6">Connect {post.data.title} with Open AI</h4>
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
-
+              <a class="btn btn-primary mt-8 px-10" href="/get-started"
+              >Get started with 
+              {humanize(post.data.name)}</a
+            >
             </div>
+
             <div class="content"><Content /></div>
             <div class="text-center">
-            <a class="btn btn-primary mt-8 px-10" href="/get-started"
-                >Get started with 
+              <a class="btn btn-primary mt-8 px-10" href="/get-started"
+                >Get started with
                 {humanize(post.data.name)}</a
               >
-              </div>
+            </div>
           </div>
         </div>
       </div>
