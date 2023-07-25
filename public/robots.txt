@@ -7,3 +7,4 @@ Allow: /privacy
 Allow: /get-started
 Allow: /channels
 Allow: /channels/*
+Allow: /sitemap*

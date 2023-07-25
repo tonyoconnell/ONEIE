@@ -10,7 +10,7 @@
     },
     {
       "name": "Integrations",
-      "url": "/integrations"
+      "url": "/#integrations"
     },
     {
       "name": "API",
@@ -30,7 +30,7 @@
           "url": "/privacy"
         },
         {
-          "name": "Terms And Conditions",
+          "name": "Terms",
           "url": "/terms"
         }
       ]
