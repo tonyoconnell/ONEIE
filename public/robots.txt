@@ -5,3 +5,5 @@ Allow: /$
 Allow: /terms
 Allow: /privacy
 Allow: /get-started
+Allow: /channels
+Allow: /channels/*
