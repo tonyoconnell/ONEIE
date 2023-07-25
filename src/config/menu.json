@@ -6,11 +6,11 @@
     },
     {
       "name": "Channels",
-      "url": "/#channels"
+      "url": "/channels"
     },
     {
       "name": "Integrations",
-      "url": "/#ecommerce-platforms"
+      "url": "/integrations"
     },
     {
       "name": "API",
