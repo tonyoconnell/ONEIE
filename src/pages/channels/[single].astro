@@ -59,15 +59,12 @@ const page_data = {
               />
               <h4 class="mt-6">Connect {post.data.title} with Open AI</h1>
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
-              <a class="btn btn-primary mt-8 px-10" href={post.data.button.link}
-                >{humanize(post.data.button.label)} with
-                {humanize(post.data.name)}</a
-              >
+
             </div>
             <div class="content"><Content /></div>
             <div class="text-center">
-            <a class="btn btn-primary mt-8 px-10 text-center" href={post.data.button.link}
-                >{humanize(post.data.button.label)} with
+            <a class="btn btn-primary mt-8 px-10" href="/get-started"
+                >Get started with 
                 {humanize(post.data.name)}</a
               >
               </div>

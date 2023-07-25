@@ -10,7 +10,7 @@ import { getEntryBySlug } from "astro:content";
 const integraionsIndex = await getEntryBySlug<any, string>(
   "channels",
   "-index"
-);
+); 
 const categories = await getTaxonomy("channels", "categories");
 const integrations = await getSinglePage("channels");
 const page_data = {
