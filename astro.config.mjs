@@ -12,7 +12,8 @@ import config from "./src/config/config.json";
 // https://astro.build/config
 export default defineConfig({
   experimental: {
-    viewTransitions: true
+    viewTransitions: true,
+    assets: true
    },
   site: config.site.base_url ? config.site.base_url : "http://one.ie",
   base: config.site.base_path ? config.site.base_path : "/",

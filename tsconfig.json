@@ -13,7 +13,8 @@
       "@config/*": ["./src/config/*"],
       "@styles/*": ["./src/styles/*"],
       "@blocks/*": ["./src/blocks/*"],
-      "@lib/*": ["./src/lib/*"]
+      "@lib/*": ["./src/lib/*"],
+      "@assets/*": ["src/assets/*"]
     }
   }
 }
