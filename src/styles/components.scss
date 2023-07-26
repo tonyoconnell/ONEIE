@@ -575,7 +575,7 @@ select:invalid {
 
 .blockquote {
   p {
-    @apply text-2xl text-dark;
+    @apply text-dark;
   }
   blockquote {
     @apply relative border-none p-0 not-italic;
@@ -595,6 +595,7 @@ select:invalid {
     }
   }
 }
+
 
 //comment form
 .comment-form {
