@@ -8,7 +8,7 @@ categories: ["development", "SEO"]
 featured: true
 draft: false
 ---
-I decided to get a perfect score on Google Lighthouse before I launched my website and then build it from there. I just got 100% score for performance, accessability and SEO so I guess I'm ready. 
+I decided to start with a perfect score on Google Lighthouse before I launched my website and then build it from there. I just got 100% Lighthouse score for performance, 100% for accessability and 100% for SEO so I guess I'm ready. 
 
 <Blockquote name="Google Search Team">
   "As Google, we believe in the undeniable truth that page speed serves as the cornerstone of a seamless user experience. It's not just a metric; it's the ultimate bridge connecting users to valuable content. With its paramount influence on search rankings, page speed becomes the harmonious symphony that orchestrates a website's success in the digital realm."
@@ -17,11 +17,11 @@ I decided to get a perfect score on Google Lighthouse before I launched my websi
 
 The site loads in as little as 346ms! You're reading this right. Not 3 seconds. It's 0.3 of a second!
 
-<img src="/images/posts/lighthouse-desktop.png" />
+<img src="/images/posts/lighthouse-desktop.png" alt="100% Lighthouse Score Desktop"/>
 
 On a mobile with a slow 4g connection the site still loads in less than 2 seconds!
 
-<img src="/images/posts/lighthouse-mobile.png" />
+<img src="/images/posts/lighthouse-mobile.png" alt="100% Lighthouse Score Mobile"/>
 
 **Why is this important?**
 2 reasons. Firstly Google ranks sites higher when they load faster. Secondly, sites that load faster have higher conversion rates.
@@ -57,16 +57,15 @@ It's headless.
 
 I used Astro https://astro.build the fastest web technology on the market. Astro is used by Google, Microsoft and The Guardian and it's a beautiful piece of technology. 
 
-<img src="/images/posts/astro-speed.png" />
+<img src="/images/posts/astro-speed.png" alt="Astro Speed" />
 
 Astro uses Islands (aka Component Islands) are a pattern of web architecture pioneered by Astro. 
-
-<img src="/images/posts/astro-islands.png" />
-
 
 The term “Astro Island” refers to an interactive UI component on an otherwise static page of HTML. Multiple islands can exist on a page, and an island always renders in isolation. Think of them as islands in a sea of static, non-interactive HTML. 
 
 The technique is known as partial or selective hydration. Astro strips your site of JavaScript and loads it in islands, if needed. That's how it can load a site so fast. 
+
+<img src="/images/posts/astro-islands.png" alt="Astro Islands"/>
 
 Astro is not only fast but it's a pleasure to work with. 
 
@@ -85,3 +84,5 @@ Now it's time to add my Analytics code with Google Tag Manager. We have deep int
 Partytown is a lazy-loaded library to help relocate resource intensive scripts into a web worker, and off of the main thread.
 
 If you’re using third-party scripts for things like analytics or ads, Partytown is a great way to make sure that they don’t slow down your site.
+
+I will let you know how I get on in the next post.

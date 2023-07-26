@@ -10,3 +10,5 @@ Allow: /channels/*
 Allow: /integrations
 Allow: /integrations/*
 Allow: /sitemap*
+Allow: /blog*
+Allow: /blog/*
