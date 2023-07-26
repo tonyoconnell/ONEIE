@@ -52,7 +52,7 @@ const page_data = {
             class="background-secondary rounded-xl p-7 shadow-lg lg:px-12 lg:py-[60px]"
           >
             <div class="mb-8 px-4 text-center">
-              <img src={post.data.image} alt="{post.data.title}" width="80px" height="80px"/>
+              <img class="logo" src={post.data.image} alt={post.data.title} width="80px" height="80px"/>
               <h4 class="mt-6">Connect {post.data.title} with Open AI</h4>
               <p class="mt-6" set:html={markdownify(post.data.excerpt)} />
               <a class="btn btn-primary mt-8 px-10" href="/get-started"
