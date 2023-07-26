@@ -28,7 +28,11 @@ export default defineConfig({
     serviceEntryPoint: "@astrojs/image/sharp"
   }), AutoImport({
     imports: ["@shortcodes/Button", "@shortcodes/Accordion", "@shortcodes/Notice", "@shortcodes/Video", "@shortcodes/Youtube", "@shortcodes/Blockquote", "@shortcodes/Badge", "@shortcodes/ContentBlock", "@shortcodes/Changelog"]
-  }), mdx(), partytown()],
+  }), mdx(), partytown({
+    config: {
+      forward: ["dataLayer.push"],
+    },
+  })],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
       test: "Table of contents"
