@@ -1,5 +1,6 @@
 ---
 import TwSizeIndicator from "@components/TwSizeIndicator.astro";
+import ChatIcon from "@components/ChatIcon.astro";
 import config from "@config/config.json";
 import theme from "@config/theme.json";
 import { plainify } from "@lib/utils/textConverter";
@@ -152,5 +153,5 @@ const { title, meta_title, description, image, noindex, canonical } =
       is:inline
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"
     ></script>
-    <script async defer src="https://app.one.ie/js/widget/r5mimf8t58skngac/float.js"></script>  </body>
+    <ChatIcon  client:idle />
 </html>
