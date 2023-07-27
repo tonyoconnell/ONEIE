@@ -1,12 +1,15 @@
 ---
 import Phone from "@layouts/components/Phone.astro";
+import ChatEmbed from "@components/chatembed.jsx";
+
 ---
 
 <section class="section banner relative">
   <div class="container">
     <div class="row items-center">
       <div class="hidden md:flex md:col-6">
-        <Phone />
+        <Phone />    <ChatEmbed client:visible />
+
       </div>
       <div class="md:col-6 hero">
         <h1 class="banner-title">
