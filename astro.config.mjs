@@ -11,6 +11,7 @@ import swup from '@swup/astro';
 import { astroImageTools } from "astro-imagetools";
 import config from "./src/config/config.json";
 import partytown from "@astrojs/partytown";
+import { astroImageTools } from "astro-imagetools";
 import compress from "astro-compress";
 
 import critters from "astro-critters";
