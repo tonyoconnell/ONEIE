@@ -63,7 +63,6 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
     <GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap">
     </GoogleFontsOptimizer>
-
     <!-- title -->
     <title>
       {plainify(meta_title ? meta_title : title ? title : config.site.title)}
@@ -139,15 +138,17 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
-  </head>
-  <body>
+ 
+ </head>
+  <body >
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WFW88J7C"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
     <TwSizeIndicator />
     <Header />
-    <main id="main-content">
+    <a href="/how-it-works" data-swup-transition="right">slide</a>
+    <main id="swup" class="transition-swipe">
       <slot />
     </main>
     <Footer />
@@ -155,4 +156,5 @@ const { title, meta_title, description, image, noindex, canonical } =
       is:inline
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"
     ></script>
+    </body>
 </html>

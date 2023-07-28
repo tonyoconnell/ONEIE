@@ -7,6 +7,7 @@ import AutoImport from "astro-auto-import";
 import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
+import swup from '@swup/astro';
 import config from "./src/config/config.json";
 
 import partytown from "@astrojs/partytown";
@@ -14,13 +15,28 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   experimental: {
-    viewTransitions: true,
     assets: true
   },
   site: config.site.base_url ? config.site.base_url : "http://one.ie",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
-  integrations: [react(), sitemap(), tailwind({
+  integrations: [react(), sitemap(), swup({
+    theme: 'slide',
+    animationClass: 'transition-',
+    containers: ['main'],
+    cache: true,
+    preload: true,
+    accessibility: true,
+    progress: true,
+    routes: true,
+    smoothScrolling: true,
+    updateBodyClass: true,
+    updateHead: true,
+    reloadScripts: true,
+    debug: false,
+    loadOnIdle: true,
+    globalInstance: false,
+  }), tailwind({
     config: {
       applyBaseStyles: false
     }

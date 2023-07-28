@@ -150,3 +150,10 @@ background-repeat: repeat;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
+.transition-swipe {
+  transition: 500ms;
+  transform: translateY(0);
+}
+.html.is-animating .transition-swipe {
+  transform: translateY(100px);
+}
