@@ -8,9 +8,10 @@ import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import swup from '@swup/astro';
+import { astroImageTools } from "astro-imagetools";
 import config from "./src/config/config.json";
-
 import partytown from "@astrojs/partytown";
+import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,7 +21,7 @@ export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "http://one.ie",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
-  integrations: [react(), sitemap(), swup({
+  integrations: [react(), astroImageTools, sitemap(), swup({
     theme: 'slide',
     animationClass: 'transition-',
     containers: ['main'],
@@ -35,7 +36,7 @@ export default defineConfig({
     reloadScripts: true,
     debug: true,
     loadOnIdle: true,
-    globalInstance: false,
+    globalInstance: false
   }), tailwind({
     config: {
       applyBaseStyles: false
@@ -46,9 +47,9 @@ export default defineConfig({
     imports: ["@shortcodes/Button", "@shortcodes/Accordion", "@shortcodes/Notice", "@shortcodes/Video", "@shortcodes/Youtube", "@shortcodes/Blockquote", "@shortcodes/Badge", "@shortcodes/ContentBlock", "@shortcodes/Changelog"]
   }), mdx(), partytown({
     config: {
-      forward: ["dataLayer.push"],
-    },
-  })],
+      forward: ["dataLayer.push"]
+    }
+  }), compress()],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
       test: "Table of contents"
