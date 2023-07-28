@@ -4,7 +4,7 @@ const Chatbot = () => {
   useEffect(() => {
     window.chatbotSettings = {
       chat_bubble_style: "standard",
-      chat_bubble_text: "ewr",
+      chat_bubble_text: "Chat",
       chat_bubble_icon: "facebook",
       chat_bubble_icon_url:
         "https://bot.ewr1.vultrobjects.com/team/5384/one-icon.png",
@@ -19,7 +19,7 @@ const Chatbot = () => {
       user_msg_text_color: "#FFFFFF",
       start_chat_button_radius_style: "circle",
       start_chat_button_radius: 8,
-      style: "popup",
+      style: "float",
       position: "right",
       left_spacing: 20,
       right_spacing: 20,
