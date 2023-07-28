@@ -19,6 +19,7 @@
     "astro": "^2.3.2",
     "astro-auto-import": "^0.3.0",
     "astro-compress": "^1.1.50",
+    "astro-critters": "^1.1.40",
     "astro-google-fonts-optimizer": "^0.2.2",
     "astro-imagetools": "^0.8.1",
     "date-fns": "^2.30.0",

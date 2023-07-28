@@ -13,6 +13,8 @@ import config from "./src/config/config.json";
 import partytown from "@astrojs/partytown";
 import compress from "astro-compress";
 
+import critters from "astro-critters";
+
 // https://astro.build/config
 export default defineConfig({
   experimental: {
@@ -49,7 +51,7 @@ export default defineConfig({
     config: {
       forward: ["dataLayer.push"]
     }
-  }), compress()],
+  }), compress(), critters()],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
       test: "Table of contents"
