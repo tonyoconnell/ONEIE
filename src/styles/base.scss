@@ -90,7 +90,7 @@ h6,
 
 /* Now, let's apply it on an element */
 body {
-  font-family: "system-ui";
+  font-family: "Inter, sans-serif";
 }
 
 .loading {background-color: #242624;margin-top: -200px;}
@@ -138,3 +138,23 @@ body {
 .footer-heading {font-size: 24px!important; color: white; padding-bottom: 20px;}
 .testimonial-author {font-size: 24px!important; color: white; padding-bottom: 20px;}
  
+#flowbuilder-main {
+background-color: rgb(17 17 17 / var(--tw-bg-opacity));
+background-image: url("https://one.ie/images/backgrounds/brilliant.png");
+background-repeat: repeat;
+}
+
+.social-icons li a {
+  display: inline-flex;
+  height: 20px!important;
+  width: 20px!important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: transparent!important;
+  text-align: center;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}

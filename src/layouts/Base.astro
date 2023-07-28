@@ -1,6 +1,5 @@
 ---
 import TwSizeIndicator from "@components/TwSizeIndicator.astro";
-import ChatIcon from "@components/chatembed.jsx";
 import config from "@config/config.json";
 import theme from "@config/theme.json";
 import { plainify } from "@lib/utils/textConverter";
@@ -153,5 +152,4 @@ const { title, meta_title, description, image, noindex, canonical } =
       is:inline
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"
     ></script>
-    <ChatIcon client:visible />
 </html>
