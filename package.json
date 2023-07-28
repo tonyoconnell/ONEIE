@@ -17,6 +17,7 @@
     "@astrojs/rss": "^2.4.0",
     "astro": "^2.3.2",
     "astro-auto-import": "^0.3.0",
+    "astro-google-fonts-optimizer": "^0.2.2",
     "date-fns": "^2.30.0",
     "date-fns-tz": "^2.0.0",
     "disqus-react": "^1.1.5",
