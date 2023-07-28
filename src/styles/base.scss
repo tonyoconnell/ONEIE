@@ -80,8 +80,9 @@ h6,
   padding-right: 1px;
   color: white;
 }
-
-
+.nav-link.active::after {
+  display: none;
+}
 
 /* Now, let's apply it on an element */
 

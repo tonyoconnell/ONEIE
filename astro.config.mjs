@@ -24,7 +24,7 @@ export default defineConfig({
     theme: 'slide',
     animationClass: 'transition-',
     containers: ['main'],
-    cache: true,
+    cache: false,
     preload: true,
     accessibility: true,
     progress: true,
@@ -33,7 +33,7 @@ export default defineConfig({
     updateBodyClass: true,
     updateHead: true,
     reloadScripts: true,
-    debug: false,
+    debug: true,
     loadOnIdle: true,
     globalInstance: false,
   }), tailwind({
