@@ -8,7 +8,6 @@ import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import swup from '@swup/astro';
-import { astroImageTools } from "astro-imagetools";
 import config from "./src/config/config.json";
 import partytown from "@astrojs/partytown";
 import { astroImageTools } from "astro-imagetools";
