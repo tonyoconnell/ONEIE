@@ -59,11 +59,11 @@ const { pathname } = Astro.url;
           <>
             {menu.hasChildren ? (
               <li
-                class="nav-item nav-dropdown group relative cursor-pointer "
+                class="nav-item nav-dropdown group relative cursor-pointer"
                 id="dropdown-button"
               >
                 <span
-                  class={`nav-link inline-flex items-center ${
+                  class={`nav-link inline-flex items-center${
                     menu.children?.map(({ url }) => url).includes(pathname) ||
                     menu.children
                       ?.map(({ url }) => `${url}/`)
@@ -98,7 +98,7 @@ const { pathname } = Astro.url;
                 </ul>
               </li>
             ) : (
-              <li class="nav-item">
+              <li class="nav-item link link-underline link-underline-black text-white">
                 <a
                   href={menu.url}
                   class={`nav-link inline-block lg:block ${
@@ -114,15 +114,19 @@ const { pathname } = Astro.url;
         ))
       }
       <li class="nav-item mt-2 lg:hidden">
-        <a href="https://app.one.ie/login"> Sign In &nbsp; </a>
-        <a class="btn btn-white btn-sm border-border" href="/get-started">
-          Get Started</a
-        >
+       <a class="btn btn-white btn-sm border-border" href="https://app.one.ie/login">
+          Sign In
+        </a>
+      </li>
+      <li class="nav-item mt-2 lg:hidden">
+       <a data-no-swup class="btn btn-primary btn-sm border-border" href="/get-started">
+          Get Started
+        </a>
       </li>
     </ul>
     <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-      <a href="https://app.one.ie/login"> Sign In &nbsp; </a>
-      <a class="btn btn-white" href="/get-started"> Get Started</a>
+        <a class="link link-underline link-underline-black text-white" href="https://app.one.ie/login"> Sign In &nbsp; </a>
+      <a data-no-swup class="btn btn-white" href="/get-started" data-no-swup> Get Started</a>
     </div>
   </nav>
 </header>

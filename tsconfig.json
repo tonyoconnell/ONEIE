@@ -14,6 +14,7 @@
       "@styles/*": ["./src/styles/*"],
       "@blocks/*": ["./src/blocks/*"],
       "@lib/*": ["./src/lib/*"],
+      "@blocks/*": ["./src/blocks/*"],
       "@assets/*": ["src/assets/*"]
     }
   }

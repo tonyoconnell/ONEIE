@@ -6,6 +6,9 @@ import { plainify } from "@lib/utils/textConverter";
 import Footer from "@partials/Footer.astro";
 import Header from "@partials/Header.astro";
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+import { Img } from "astro-imagetools/components";
+import { Picture } from "astro-imagetools/components";
+
 import "@styles/main.scss";
 
 // font families
@@ -28,7 +31,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
 
 <!-- Google Tag Manager -->

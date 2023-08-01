@@ -5,11 +5,40 @@ html {
 body {
   @apply bg-body bg-[url('/images/background.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
 }
-.background-secondary {
-  @apply bg-body bg-[url('/images/backgrounds/brilliant.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
+.primary {
+  background-color: #1a5fb4;
+}
+.background-primary {
+  @apply bg-body bg-[url('/images/background.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
 
 }
+.background-secondary {
+  @apply bg-body bg-[url('/images/backgrounds/brilliant.png')] bg-repeat font-primary font-normal leading-relaxed text-text;
+}
+.background-black {background-color: #222222!important; color:#222222}
+.red {background-color: red!important; color:pink}
+.blue {background-color: blue!important; color:blue}
+.text-gray {color: gray}
+.black {
+  color: #222222!important
+}
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
 
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#1a5fb4, #1a5fb4)
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
 h1,
 h2,
 h3,

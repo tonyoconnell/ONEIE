@@ -1,18 +1,17 @@
-import image from "@astrojs/image";
-import mdx from "@astrojs/mdx";
-import react from "@astrojs/react";
-import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
-import AutoImport from "astro-auto-import";
 import { defineConfig } from "astro/config";
+import config from "./src/config/config.json";
+import AutoImport from "astro-auto-import";
+import sitemap from "@astrojs/sitemap";
+import partytown from "@astrojs/partytown";
+import image from "@astrojs/image";
+import { astroImageTools } from "astro-imagetools";
+import react from "@astrojs/react";
+import tailwind from "@astrojs/tailwind";
+import mdx from "@astrojs/mdx";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import swup from '@swup/astro';
-import config from "./src/config/config.json";
-import partytown from "@astrojs/partytown";
-import { astroImageTools } from "astro-imagetools";
 import compress from "astro-compress";
-
 import critters from "astro-critters";
 
 // https://astro.build/config

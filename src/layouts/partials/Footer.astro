@@ -14,8 +14,8 @@ const { copyright, location, email, phone, footer_description } = config.params;
   <div class="">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <img class="logo-footer" src="/images/logos/o-light.svg" width="80px" height="100px" alt="ONE Logo" >
-        <p class="mt-6"><a href="/" data-no-swup>
+        <a class="link link-underline link-underline-black text-white" href="/" data-no-swup></a><img class="logo-footer" src="/images/logos/o-light.svg" width="80px" height="100px" alt="ONE Logo" >
+      </a><p class="mt-6"><a class="link link-underline link-underline-black text-white" href="/" data-no-swup>
           ONE </a><br>
           {footer_description}
         </p>
@@ -31,7 +31,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a class="hover:text-primary hover:underline " href={item.url}>
+                <a class="link link-underline link-underline-black text-white"" href={item.url}>
                   {item.name}
                 </a>
               </li>
@@ -44,11 +44,11 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <ul>
           <li class="mb-2">{location}</li>
           <li class="mb-2">
-            <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
+            <a class="mb-2 link link-underline link-underline-black text-white" href={`mailto:${email}`}
               >{email}</a>
           </li>
           <li>
-            <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
+            <a class="link link-underline link-underline-black text-white" href={`tel:${phone}`}
               >{phone}</a>
           </li>
         </ul>
