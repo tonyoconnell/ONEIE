@@ -1,0 +1,64 @@
+---
+import Base from "@layouts/Base.astro";
+import { Img } from "astro-imagetools/components";
+import { Picture } from "astro-imagetools/components";
+import Laptop from "@components/Laptop.astro";
+import Video from "@blocks/Video.astro";
+import Quote from "@blocks/Quote.astro";
+import TrustedBy from "@blocks/TrustedBy.astro";
+import Channels from "@blocks/Channels.astro";
+import HeroCenter from "@blocks/HeroCenter.astro";
+import HeroLeft from "@blocks/HeroLeft.astro";
+import HeroRight from "@blocks/HeroRight.astro";
+import Stats from "@blocks/Stats.astro";
+import Features2Blocks from "@blocks/Features2Blocks.astro";
+import Testimonial from "@blocks/Testimonial.astro";
+import Cta from "@layouts/partials/Cta.astro";
+import About from "@blocks/About.astro";
+import Banner from "@blocks/Banner.astro";
+import Blogs from "@blocks/Blogs.astro";
+import Carosel from "@blocks/Carosel.astro";
+import HeroPage from "@blocks/Hero-Page.astro";
+import SideNav from "@blocks/SideNav.astro";
+import Social from "@blocks/Social.astro";
+import Tabs from "@blocks/Tabs.astro";
+import Timeline from "@blocks/Timeline.astro";
+
+import EcommercePlatforms from "@blocks/EcommercePlatforms.astro";
+
+import { getEntryBySlug } from "astro:content";
+
+const homepage = await getEntryBySlug("homepage", "index");
+const { banner, key_features, service, testimonial } = homepage.data;
+---
+
+<Base>
+    <Tabs />
+
+  <About />
+  <Carosel />
+  <HeroPage />
+  <Timeline />
+  <HeroCenter />
+  <Channels />
+  <Stats />
+  <HeroLeft />
+  <HeroRight />
+  <Laptop />
+  <EcommercePlatforms />
+  <Features2Blocks />
+  <Quote />
+  <Laptop />
+  <Video />
+  <TrustedBy />
+    <Cta />
+
+  <br /><br /><br />
+
+  <Testimonial testimonial={testimonial} />
+  <!-- call to action -->
+
+  <!--
+   
+-->
+</Base>

@@ -1,8 +1,8 @@
 {
   "main": [
     {
-      "name": "Product",
-      "url": "/"
+      "name": "Playbook",
+      "url": "/playbook"
     },
     {
       "name": "Channels",
