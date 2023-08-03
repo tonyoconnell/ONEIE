@@ -1,6 +1,8 @@
 ---
 import Chat from "@components/Chat.astro"
+import { Img } from "astro-imagetools/components";
 ---
+
 <div class="lg:mt-0 lg:col-span-5 lg:flex">
     <div class="relative mx-auto border-gray-100 dark:border-gray-100 bg-gray-100 border-[14px] rounded-[2.5rem] h-[650px] w-[400px]">
       <div class="h-[32px] w-[3px] bg-gray-100 dark:bg-gray-100 absolute -left-[17px] top-[72px] rounded-l-lg"></div>
@@ -9,6 +11,8 @@ import Chat from "@components/Chat.astro"
       <div class="h-[64px] w-[3px] bg-gray-100 dark:bg-gray-100 absolute -right-[17px] top-[142px] rounded-r-lg"></div>
       <div class="rounded-[2rem] overflow-hidden w-[372px] h-[618px] bg-white dark:bg-gray-100">
         <div id="embed_chatbot_container_id"></div>
-        <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-1-light.png" class="dark:hidden w-[272px] h-[572px]" alt="">
+        <a href="/demo">
+        <Img src="/images/demo.png" alt="Demo">
+        </a>
       </div>
 </div>

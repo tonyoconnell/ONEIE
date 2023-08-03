@@ -1,5 +1,5 @@
 ---
-import Phone from "@layouts/components/Phone.astro";
+import Phone from "@blocks/Phone.astro";
 import ChatEmbed from "@components/chatembed.jsx";
 
 ---
@@ -7,13 +7,10 @@ import ChatEmbed from "@components/chatembed.jsx";
 <section class="section banner relative">
   <div class="container">
     <div class="row items-center">
-      <div class="hidden md:flex md:col-6">
-        <Phone />    <ChatEmbed client:idle />
-
-      </div>
-      <div class="md:col-6 hero">
-        <h1 class="banner-title">
-          Elevate Ecommerce with AI </h1>
+      <div class="md:col-7 hero">
+       <h1 class="text-4xl font-bold leading-none sm:text-5xl">Explode <span class="text-gray">Ecommerce </span>Sales
+			with AI-Powered <span class="text-primary">Chat Funnels</span>
+		</h1>
           <p>
             Connect your ecommerce store to your customer's favourite messaging channels. Then help them buy using AI-powered chat. 
           </p>
@@ -50,6 +47,10 @@ import ChatEmbed from "@components/chatembed.jsx";
               <span>Google Dialogflow</span>
             </a>
           </div>
+      </div>
+            <div class="md:flex md:col-5">
+        <Phone />     <ChatEmbed client:visible />
+
       </div>
     </div>
   </div>

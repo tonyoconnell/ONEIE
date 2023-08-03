@@ -4,12 +4,10 @@ import Social from "@components/Social.astro";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
 import social from "@config/social.json";
-import ChatIcon from "@components/ChatIcon.astro"
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
-<ChatIcon />
 <footer class="footer bg-[#111111] bg-body bg-[url('/images/backgrounds/brilliant.png')] ">
   <div class="">
     <div class="gx-5 row pb-10 pt-[52px]">

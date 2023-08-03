@@ -1,12 +1,11 @@
 ---
-import Base from "@layouts/Base.astro";
-import Channels from "@blocks/Channels.astro";
-import KeyFeatures from "@blocks/KeyFeatures.astro";
-import Testimonial from "@blocks/Testimonial.astro";
-import Service from "@blocks/Service.astro";
-import Cta from "@layouts/partials/Cta.astro";
+import Base from "@layouts/BaseChatWindow.astro";
 import Hero from "@blocks/HeroPhone.astro";
+import Channels from "@blocks/Channels.astro";
+import Stats from "@blocks/Stats.astro";
 import EcommercePlatforms from "@blocks/EcommercePlatforms.astro";
+import Testimonial from "@blocks/Testimonial.astro";
+import Cta from "@layouts/partials/Cta.astro";
 
 import { getEntryBySlug } from "astro:content";
 
@@ -15,18 +14,10 @@ const { banner, key_features, service, testimonial } = homepage.data;
 ---
 
 <Base>
-  <script>
-    window.addEventListener( "pageshow", function ( event ) {
-      var historyTraversal = event.persisted || 
-                             ( typeof window.performance != "undefined" && 
-                                  window.performance.navigation.type === 2 );
-      if ( historyTraversal ) {
-        // Handle page restore.
-        window.location.reload();
-      }
-    });</script>
+
   <Hero />
   <Channels />
+  <Stats />
   <EcommercePlatforms />
 <br><br><br>
 

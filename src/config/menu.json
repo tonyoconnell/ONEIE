@@ -16,11 +16,7 @@
       "name": "API",
       "url": "https://app.one.ie/api"
     },
-    {
-      "name": "Pricing",
-      "url": "/get-started"
-    },
-    {
+     {
       "name": "Company",
       "url": "",
       "hasChildren": true,
