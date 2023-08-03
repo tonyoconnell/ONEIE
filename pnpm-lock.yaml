@@ -59,6 +59,9 @@ dependencies:
   marked:
     specifier: ^4.3.0
     version: 4.3.0
+  potrace:
+    specifier: ^2.1.8
+    version: 2.1.8
   react-feather:
     specifier: ^2.0.10
     version: 2.0.10(react@18.2.0)

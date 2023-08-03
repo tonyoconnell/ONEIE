@@ -29,6 +29,7 @@
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "marked": "^4.3.0",
+    "potrace": "^2.1.8",
     "react-feather": "^2.0.10",
     "react-icons": "^4.8.0",
     "react-lite-youtube-embed": "^2.3.52",
