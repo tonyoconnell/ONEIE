@@ -14,6 +14,8 @@ import swup from '@swup/astro';
 import compress from "astro-compress";
 import critters from "astro-critters";
 
+import netlify from "@astrojs/netlify/functions";
+
 // https://astro.build/config
 export default defineConfig({
   experimental: {
@@ -60,5 +62,7 @@ export default defineConfig({
       wrap: true
     },
     extendDefaultPlugins: true
-  }
+  },
+  output: "server",
+  adapter: netlify()
 });
