@@ -50,7 +50,7 @@ export default defineConfig({
     config: {
       forward: ["dataLayer.push"]
     }
-  }), compress(), critters()],
+  })],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, {
       test: "Table of contents"
